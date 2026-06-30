@@ -275,6 +275,25 @@
       font-size: .9rem;
       letter-spacing: .04em;
     }
+    .privacy-links {
+      margin-top: 1.8rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: .8rem;
+      justify-content: center;
+    }
+    .privacy-link {
+      display: inline-block;
+      background: rgba(255,255,255,.12);
+      border: 1px solid rgba(255,255,255,.25);
+      color: #fff;
+      border-radius: 3rem;
+      padding: .8rem 2rem;
+      font-size: .9rem;
+      text-decoration: none;
+      transition: background .2s, transform .2s;
+    }
+    .privacy-link:hover { background: rgba(255,255,255,.2); transform: translateY(-2px); }
 
     /* ── CONTACT ── */
     .contact {
@@ -426,12 +445,14 @@
 <section class="coming">
   <p class="section-eyebrow">Apps</p>
   <h2>곧 만나요 🚀</h2>
-  <p>ED Soft의 첫 번째 앱이 출시를 준비 중이에요.<br />따뜻하고 특별한 경험으로 곧 찾아뵐게요.</p>
+  <p>ED Soft의 앱들이 출시를 준비 중이에요.<br />따뜻하고 특별한 경험으로 곧 찾아뵐게요.</p>
   <div class="coming-badge">출시 준비 중 · Coming Soon</div>
-  <div style="margin-top:1.8rem;">
-    <a href="HeartyVillage_Privacy.html"
-       style="display:inline-block;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);color:#fff;border-radius:3rem;padding:.8rem 2rem;font-size:.9rem;text-decoration:none;">
+  <div class="privacy-links">
+    <a href="HeartyVillage_Privacy.html" class="privacy-link">
       🧚 Hearty Village 개인정보처리방침
+    </a>
+    <a href="Planty_Privacy.html" class="privacy-link">
+      🌿 Planty 개인정보처리방침
     </a>
   </div>
 </section>
