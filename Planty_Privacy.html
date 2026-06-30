@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Planty — Privacy Policy</title>
+<style>
+  :root { --bg:#F4FBF3; --card:#FFFFFF; --ink:#20302A; --sub:#5A6B5D; --accent:#2E7D45; --line:#E4F0E2; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans KR","Noto Sans JP",sans-serif; background:var(--bg); color:var(--ink); line-height:1.7; }
+  .wrap { max-width:760px; margin:0 auto; padding:28px 20px 80px; }
+  .langbar { display:flex; gap:8px; justify-content:center; margin:8px 0 24px; }
+  .langbar button { border:none; background:#E2F2E3; color:var(--accent); font-weight:700; font-size:14px; padding:8px 16px; border-radius:99px; cursor:pointer; }
+  .langbar button.active { background:var(--accent); color:#fff; }
+  h1 { font-size:24px; margin:0 0 4px; }
+  .updated { color:var(--sub); font-size:13px; margin-bottom:24px; }
+  h2 { font-size:17px; margin:28px 0 8px; color:var(--accent); }
+  p, li { font-size:15px; color:#384539; }
+  ul { padding-left:20px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:6px 22px 22px; }
+  a { color:var(--accent); }
+  .lang { display:none; }
+  .lang.active { display:block; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="langbar">
+    <button onclick="setLang('en')" id="btn-en" class="active">English</button>
+    <button onclick="setLang('ko')" id="btn-ko">한국어</button>
+    <button onclick="setLang('ja')" id="btn-ja">日本語</button>
+  </div>
+
+  <!-- ================= ENGLISH ================= -->
+  <div class="lang active" id="lang-en">
+  <div class="card">
+    <h1>Privacy Policy</h1>
+    <div class="updated">Planty · Last updated: June 30, 2026</div>
+
+    <p>Planty ("the app", "we") is an AI plant care app. You take a photo of a plant, an AI identifies the species and analyzes its condition, and the app gives you tailored care guidance. This policy explains what information we handle and how.</p>
+
+    <h2>1. Information We Collect</h2>
+    <ul>
+      <li><b>Plant photos</b> — the images you take or select to identify and diagnose your plants.</li>
+      <li><b>Plant records</b> — plant names, species, care logs (watering and other care), photo history, and AI analysis results.</li>
+      <li><b>Account information</b> — Planty uses an anonymous account by default. We do not collect your name or email address. A random anonymous identifier is created to keep your data tied to your account.</li>
+      <li><b>Subscription/usage records</b> — the number of AI analyses used and your subscription status, to operate free limits and premium features.</li>
+    </ul>
+
+    <h2>2. How We Use Information</h2>
+    <ul>
+      <li>To provide the core service: identifying plants, diagnosing their condition, and giving care guidance.</li>
+      <li>To save your plants and photos to the cloud so they stay available across devices.</li>
+      <li>To send care reminders (such as watering notifications) if you allow notifications.</li>
+      <li>To operate free-usage limits and premium subscriptions.</li>
+    </ul>
+
+    <h2>3. AI Processing &amp; Third Parties</h2>
+    <p>To identify and diagnose your plant, the photo and related plant information are sent to our secure server (Google Firebase Cloud Functions) and then to <b>Anthropic's Claude AI</b> for processing. The image is used only to generate your identification and care analysis and is not used to train AI models. Service providers we rely on:</p>
+    <ul>
+      <li><b>Google Firebase</b> (Anonymous Authentication, Firestore database, Cloud Storage, Cloud Functions) — cloud storage and secure processing of your plants and photos.</li>
+      <li><b>Anthropic</b> (Claude API) — plant identification and condition analysis from your photos.</li>
+      <li><b>Google Play Billing</b> — to process subscription purchases.</li>
+    </ul>
+
+    <h2>4. Data Storage &amp; Retention</h2>
+    <p>Your plant records are stored in Google Firebase (Firestore) and your photos in Firebase Cloud Storage. They are kept while your account exists, so your records remain available across devices. You can request deletion at any time (see Section 7).</p>
+
+    <h2>5. Data Sharing</h2>
+    <p>We do not sell your personal information. We do not share it with third parties except the service providers listed above that are necessary to operate the app, or where required by law.</p>
+
+    <h2>6. Permissions We Use</h2>
+    <ul>
+      <li><b>Camera</b> — to take photos of your plants. Used only when you choose to take a photo.</li>
+      <li><b>Photos/Storage</b> — to let you select an existing photo from your gallery.</li>
+      <li><b>Notifications</b> — to send optional care reminders. You can turn these off in your device settings.</li>
+      <li><b>Light sensor</b> — the in-app light meter reads your device's ambient light sensor in real time to estimate brightness. This reading is not stored or transmitted.</li>
+    </ul>
+
+    <h2>7. Your Choices &amp; Rights</h2>
+    <ul>
+      <li>You use the app with an anonymous account, without providing a name or email.</li>
+      <li>You can delete an individual plant and its data within the app at any time.</li>
+      <li>You can request access to or deletion of all your data by contacting us below.</li>
+      <li>You can uninstall the app at any time to stop further data collection.</li>
+    </ul>
+
+    <h2>8. Children</h2>
+    <p>This app is a general plant care tool suitable for all ages. We do not knowingly collect more information than necessary to provide the service.</p>
+
+    <h2>9. Security</h2>
+    <p>Data is transmitted over encrypted connections and stored on Google Firebase with access restricted so that each user can only access their own data.</p>
+
+    <h2>10. Changes to This Policy</h2>
+    <p>We may update this policy from time to time. Material changes will be reflected on this page with a new "Last updated" date.</p>
+
+    <h2>11. Contact</h2>
+    <p>For questions or requests regarding your data, contact us at:<br>
+    <b><a href="mailto:edsoftkorea@gmail.com">edsoftkorea@gmail.com</a></b></p>
+  </div>
+  </div>
+
+  <!-- ================= KOREAN ================= -->
+  <div class="lang" id="lang-ko">
+  <div class="card">
+    <h1>개인정보처리방침</h1>
+    <div class="updated">Planty(플랜티) · 최종 업데이트: 2026년 6월 30일</div>
+
+    <p>Planty('본 앱', '저희')는 AI 식물 케어 앱입니다. 사용자가 식물 사진을 찍으면 AI가 종을 식별하고 상태를 분석하여, 식물에 맞는 케어 가이드를 제공합니다. 본 방침은 저희가 어떤 정보를 어떻게 다루는지 설명합니다.</p>
+
+    <h2>1. 수집하는 정보</h2>
+    <ul>
+      <li><b>식물 사진</b> — 식물을 식별·진단하기 위해 촬영하거나 선택한 이미지.</li>
+      <li><b>식물 기록</b> — 식물 이름, 종, 케어 기록(물주기 등), 사진 히스토리, AI 분석 결과.</li>
+      <li><b>계정 정보</b> — Planty는 기본적으로 익명 계정을 사용합니다. 이름이나 이메일 주소를 수집하지 않습니다. 데이터를 계정에 연결하기 위해 임의의 익명 식별자가 생성됩니다.</li>
+      <li><b>구독/이용 기록</b> — AI 분석 사용 횟수와 구독 상태(무료 한도와 프리미엄 기능 운영을 위함).</li>
+    </ul>
+
+    <h2>2. 정보의 이용 목적</h2>
+    <ul>
+      <li>핵심 서비스 제공: 식물을 식별하고 상태를 진단하여 케어 가이드를 제공합니다.</li>
+      <li>식물과 사진을 클라우드에 저장하여 기기를 바꿔도 기록이 유지되도록 합니다.</li>
+      <li>알림을 허용한 경우 케어 리마인더(물주기 알림 등)를 보냅니다.</li>
+      <li>무료 이용 한도 및 프리미엄 구독을 운영합니다.</li>
+    </ul>
+
+    <h2>3. AI 처리 및 제3자 제공</h2>
+    <p>식물을 식별·진단하기 위해 사진과 관련 식물 정보는 저희의 보안 서버(Google Firebase Cloud Functions)를 거쳐 <b>Anthropic의 Claude AI</b>로 전송되어 처리됩니다. 해당 이미지는 식별 및 케어 분석 결과 생성에만 사용되며, AI 모델 학습에는 사용되지 않습니다. 저희가 이용하는 서비스 제공자는 다음과 같습니다.</p>
+    <ul>
+      <li><b>Google Firebase</b>(익명 인증, Firestore 데이터베이스, Cloud Storage, Cloud Functions) — 식물과 사진의 클라우드 저장 및 보안 처리.</li>
+      <li><b>Anthropic</b>(Claude API) — 사진을 통한 식물 식별 및 상태 분석.</li>
+      <li><b>Google Play 결제</b> — 구독 결제 처리.</li>
+    </ul>
+
+    <h2>4. 데이터 보관 및 보유 기간</h2>
+    <p>식물 기록은 Google Firebase(Firestore)에, 사진은 Firebase Cloud Storage에 저장됩니다. 계정이 존재하는 동안 보관되어 기기 간에 기록이 유지됩니다. 언제든지 삭제를 요청할 수 있습니다(제7항 참고).</p>
+
+    <h2>5. 데이터 공유</h2>
+    <p>저희는 개인정보를 판매하지 않습니다. 앱 운영에 필요한 위 서비스 제공자 또는 법령상 요구되는 경우를 제외하고는 제3자와 공유하지 않습니다.</p>
+
+    <h2>6. 사용하는 권한</h2>
+    <ul>
+      <li><b>카메라</b> — 식물 사진을 촬영하기 위함. 사용자가 촬영을 선택할 때만 사용됩니다.</li>
+      <li><b>사진/저장소</b> — 갤러리에서 기존 사진을 선택하기 위함.</li>
+      <li><b>알림</b> — 선택적 케어 리마인더 전송을 위함. 기기 설정에서 끌 수 있습니다.</li>
+      <li><b>조도 센서</b> — 앱 내 채광 측정 기능이 기기의 주변 조도 센서를 실시간으로 읽어 밝기를 추정합니다. 이 값은 저장하거나 전송하지 않습니다.</li>
+    </ul>
+
+    <h2>7. 이용자의 선택과 권리</h2>
+    <ul>
+      <li>이름·이메일 제공 없이 익명 계정으로 앱을 이용합니다.</li>
+      <li>앱 안에서 언제든지 개별 식물과 그 데이터를 삭제할 수 있습니다.</li>
+      <li>아래 연락처로 전체 데이터의 열람 또는 삭제를 요청할 수 있습니다.</li>
+      <li>언제든지 앱을 삭제하여 추가 데이터 수집을 중단할 수 있습니다.</li>
+    </ul>
+
+    <h2>8. 아동에 관하여</h2>
+    <p>본 앱은 전 연령에게 적합한 일반 식물 케어 도구입니다. 서비스 제공에 필요한 범위를 넘어서는 정보를 고의로 수집하지 않습니다.</p>
+
+    <h2>9. 보안</h2>
+    <p>데이터는 암호화된 연결로 전송되며, 각 사용자가 자신의 데이터에만 접근할 수 있도록 제한된 Google Firebase에 저장됩니다.</p>
+
+    <h2>10. 방침의 변경</h2>
+    <p>본 방침은 수시로 업데이트될 수 있습니다. 중요한 변경 사항은 본 페이지에 새로운 '최종 업데이트' 날짜와 함께 반영됩니다.</p>
+
+    <h2>11. 문의처</h2>
+    <p>데이터 관련 문의나 요청은 아래로 연락해 주세요.<br>
+    <b><a href="mailto:edsoftkorea@gmail.com">edsoftkorea@gmail.com</a></b></p>
+  </div>
+  </div>
+
+  <!-- ================= JAPANESE ================= -->
+  <div class="lang" id="lang-ja">
+  <div class="card">
+    <h1>プライバシーポリシー</h1>
+    <div class="updated">Planty(プランティ) · 最終更新日: 2026年6月30日</div>
+
+    <p>Planty（「本アプリ」「当方」）はAI植物ケアアプリです。ユーザーが植物の写真を撮ると、AIが種類を識別して状態を分析し、植物に合ったケアガイドを提供します。本ポリシーは、当方が取り扱う情報とその方法について説明します。</p>
+
+    <h2>1. 収集する情報</h2>
+    <ul>
+      <li><b>植物の写真</b> — 植物を識別・診断するために撮影または選択した画像。</li>
+      <li><b>植物の記録</b> — 植物の名前、種類、ケア記録（水やりなど）、写真履歴、AI分析結果。</li>
+      <li><b>アカウント情報</b> — Plantyは既定で匿名アカウントを使用します。氏名やメールアドレスは収集しません。データをアカウントに紐づけるため、ランダムな匿名識別子が作成されます。</li>
+      <li><b>サブスクリプション／利用記録</b> — AI分析の利用回数とサブスクリプション状態（無料枠とプレミアム機能の運用のため）。</li>
+    </ul>
+
+    <h2>2. 情報の利用目的</h2>
+    <ul>
+      <li>中核サービスの提供：植物を識別し、状態を診断してケアガイドを提供します。</li>
+      <li>植物と写真をクラウドに保存し、機種を変更しても記録が引き継がれるようにします。</li>
+      <li>通知を許可した場合、ケアのリマインダー（水やり通知など）を送信します。</li>
+      <li>無料利用枠およびプレミアムサブスクリプションを運用します。</li>
+    </ul>
+
+    <h2>3. AI処理および第三者提供</h2>
+    <p>植物を識別・診断するため、写真および関連する植物情報は当方の安全なサーバー（Google Firebase Cloud Functions）を経由して<b>AnthropicのClaude AI</b>に送信され、処理されます。当該画像は識別およびケア分析結果の生成のみに使用され、AIモデルの学習には使用されません。当方が利用するサービス提供者は以下のとおりです。</p>
+    <ul>
+      <li><b>Google Firebase</b>（匿名認証、Firestoreデータベース、Cloud Storage、Cloud Functions）— 植物と写真のクラウド保存および安全な処理。</li>
+      <li><b>Anthropic</b>（Claude API）— 写真による植物の識別および状態分析。</li>
+      <li><b>Google Play 課金</b> — サブスクリプション決済の処理。</li>
+    </ul>
+
+    <h2>4. データの保存および保有期間</h2>
+    <p>植物の記録はGoogle Firebase（Firestore）に、写真はFirebase Cloud Storageに保存されます。アカウントが存在する間保持され、機種間で記録が引き継がれます。いつでも削除を要請できます（第7項参照）。</p>
+
+    <h2>5. データの共有</h2>
+    <p>当方は個人情報を販売しません。アプリ運営に必要な上記サービス提供者、または法令で求められる場合を除き、第三者と共有しません。</p>
+
+    <h2>6. 使用する権限</h2>
+    <ul>
+      <li><b>カメラ</b> — 植物の写真を撮影するため。ユーザーが撮影を選択した時のみ使用されます。</li>
+      <li><b>写真／ストレージ</b> — ギャラリーから既存の写真を選択するため。</li>
+      <li><b>通知</b> — 任意のケアリマインダー送信のため。端末の設定でオフにできます。</li>
+      <li><b>照度センサー</b> — アプリ内の採光測定機能が端末の周囲照度センサーをリアルタイムで読み取り、明るさを推定します。この値は保存・送信されません。</li>
+    </ul>
+
+    <h2>7. ユーザーの選択と権利</h2>
+    <ul>
+      <li>氏名・メールアドレスを提供せず、匿名アカウントでアプリを利用します。</li>
+      <li>アプリ内でいつでも個別の植物とそのデータを削除できます。</li>
+      <li>下記の連絡先まで全データの閲覧または削除を要請できます。</li>
+      <li>いつでもアプリをアンインストールして、以降のデータ収集を停止できます。</li>
+    </ul>
+
+    <h2>8. 子どもについて</h2>
+    <p>本アプリは全年齢に適した一般的な植物ケアツールです。サービス提供に必要な範囲を超える情報を故意に収集することはありません。</p>
+
+    <h2>9. セキュリティ</h2>
+    <p>データは暗号化された接続で送信され、各ユーザーが自分のデータにのみアクセスできるよう制限されたGoogle Firebaseに保存されます。</p>
+
+    <h2>10. ポリシーの変更</h2>
+    <p>本ポリシーは随時更新されることがあります。重要な変更は、新しい「最終更新日」とともに本ページに反映されます。</p>
+
+    <h2>11. お問い合わせ</h2>
+    <p>データに関するお問い合わせやご要望は、以下までご連絡ください。<br>
+    <b><a href="mailto:edsoftkorea@gmail.com">edsoftkorea@gmail.com</a></b></p>
+  </div>
+  </div>
+
+</div>
+<script>
+  function setLang(l){
+    ['en','ko','ja'].forEach(function(x){
+      document.getElementById('lang-'+x).classList.toggle('active', x===l);
+      document.getElementById('btn-'+x).classList.toggle('active', x===l);
+    });
+    document.documentElement.lang = l;
+  }
+  (function(){
+    var nav = (navigator.language||'en').slice(0,2);
+    if(nav==='ko'||nav==='ja') setLang(nav);
+  })();
+</script>
+</body>
+</html>
